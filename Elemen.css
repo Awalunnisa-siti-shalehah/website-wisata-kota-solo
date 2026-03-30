@@ -1,0 +1,231 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #white;
+}
+body{
+margin:0;
+font-family:Arial;
+}
+
+.hero{
+background-image:url("Galeri 2.jpg");
+height:300px;
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.section{
+width:80%;
+margin:auto;
+text-align:center;
+padding:20px;
+}
+
+.gallery{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+padding:20px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+box-shadow:0px 4px 8px rgba(0,0,0,0.2);
+padding:10px;
+text-align:center;
+}
+
+.card img{
+width:200px;
+border-radius:10px;
+}
+.avatar-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.avatar {
+  width: clamp(70px, 12vw, 130px);
+  height: clamp(70px, 12vw, 130px);
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #black;
+}
+h3{
+text-align:center;
+}
+/* ================= FORM ================= */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e1e1e1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #800020;
+  outline: none;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #722F37;
+  z-index: 100;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #e2b94f;
+  padding: 5px;
+}
+
+.brand-text h1 {
+  font-size: 20px;
+  color: #fff;
+  margin: 0;
+}
+
+.brand-text span {
+  font-size: 12px;
+  color: #e2b94f;
+  letter-spacing: 2px;
+}
+.kembali {
+  font-size: 17px;    
+  color: white; 
+  font-weight: bold;  
+  text-decoration: none; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 10px;
+}
+
+.grid-item {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.grid-item img {
+  widthcontent://com.android.externalstorage.documents/tree/primary%3ADocuments::primary:Documents/Elemen.css: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.container h2,
+section h2{
+text-align:center;
+width:100%;
+display:block;
+margin:20px 0;
+}
+.scroll-container{
+display:flex;
+gap:15px;
+overflow-x:auto;
+padding:20px;
+}
+
+.item{
+flex:0 0 260px;
+text-align:center;
+}
+
+.item img{
+width:100%;
+height:160px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.caption{
+margin-top:8px;
+font-size:14px;
+line-height:1.4;
+}
+.item {
+  flex: 0 0 250px;
+  scroll-snap-align: start;
+}
+
+.item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.avatar-gallery h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card img {
+  width: 89%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  }
+  

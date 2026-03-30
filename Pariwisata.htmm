@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kota solo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="logo-area">
+    <img src="logo.png" class="logo">
+    <div class="brand-text">
+      <h1>SOLO</h1>
+      <span>The Heart of Java</span>
+    </div>
+  </div>
+</nav>
+
+<header id="home">
+  <h1>Kota Solo</h1>
+  <p style="background-color:#A67C00;">Explore The Beauty of Solo</p>
+
+  <nav>
+    <ul>
+      <li><a href="Pariwisata.html">Home</a></li>
+      <li><a href="destinasi.html">Jelajah</a></li>
+      <li><a href="Hal-6-transportasi.html">Transportasi</a></li>
+      <li><a href="Hal-10-emergency.html">Emergency</a></li>
+      <li><a href="Hal-12-komentar.html">Suara wisatawan</a></li>
+      <li><a href="Formulir-pemesanan.html">Form pemesanan</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- SEARCH -->
+<section id="about">
+
+<form class="search-bar">
+
+<div class="input-group">
+<label>Minat</label>
+
+<select id="kategori">
+<option>Pilih Minat</option>
+<option>Destinasi</option>
+<option>Kuliner</option>
+<option>Budaya</option>
+<option>Wisata populer</option>
+</select>
+
+</div>
+
+<button type="button" onclick="filterKategori()">Cari</button>
+
+</form>
+
+<h2 id="Destinasi">Wisata populer</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="Wisata1.jpg">
+<h3>Patung Slamet Riyadi</h3>
+<p>Pahlawan nasional Indonesia yang gugur dalam pertempuran memperebutkan Benteng Victoria di Ambon pada tahun 1950.</p>
+</div>
+
+<div class="card">
+<img src="Wisata5.jpg">
+<h3>Taman Sriwedari</h3>
+<p>Taman bersejarah dan pusat kegiatan seni budaya di Kota Solo.</p>
+</div>
+
+<div class="card">
+<img src="Wisata6.jpg">
+<h3>Heritage palace</h3>
+<p>The Heritage Palace adalah obyek wisata bertema Eropa klasik dengan beragam spot foto Instagramable.</p>
+</div>
+
+<div class="card">
+<img src="Wisata9.jpg">
+<h3>Pura Mangkunegaran</h3>
+<p>Pura Mangkunegaran di Surakarta Sebagai pusat seni budaya Jawa, pura ini memiliki pendopo terluas di Indonesia, arsitektur perpaduan Jawa-Eropa, museum, dan perpustakaan, serta menjadi destinasi wisata sejarah.</p>
+</div>
+</section>
+
+<!-- KULINER -->
+<section id="kuliner">
+
+<h2>Kuliner Khas Solo</h2>
+
+<div class="scroll-container">
+
+<div class="item">
+<img src="Makanan1.jpg">
+<p>Serabi Solo – jajanan legendaris khas Surakarta.</p>
+</div>
+
+<div class="item">
+<img src="Makanan2.jpg">
+<p>Timlo Solo – sup ayam bening khas Solo.</p>
+</div>
+
+<div class="item">
+<img src="Makanan3.jpg">
+<p>Getuk Lindri – jajanan tradisional dari singkong.</p>
+</div>
+
+<div class="item">
+<img src="Makanan4.jpg">
+<p>Nasi Pecel – nasi dengan sayur dan bumbu kacang.</p>
+</div>
+
+<div class="item">
+<img src="Makanan5.jpg">
+<p>Sate buntel  – daging cincang yang dibumbui, dililit lemak jala, lalu dibakar</p>
+</div>
+
+<div class="item">
+<img src="Makanan6.jpg">
+<p>Timlo – Kuah kaldu yang gurih, nasi yang lembut, sayuran yang segar, dan daging yang empuk.</p>
+</div>
+
+<div class="item">
+<img src="Makanan7.jpg">
+<p>Selat Solo– perpaduan unik manis, gurih, dan sedikit asam dengan aroma rempah yang kaya.</p>
+</div>
+
+
+</section>
+
+<!-- BUDAYA -->
+<section id="budaya" class="avatar-gallery">
+
+<h2>Khas Budaya Kota Solo</h2>
+
+<div class="avatar-item">
+<div class="avatar">
+<img src="budaya1.jpg">
+</div>
+<p>Batik Parang</p>
+</div>
+
+<div class="avatar-item">
+<div class="avatar">
+<img src="budaya2.jpg">
+</div>
+<p>Wayang Kulit</p>
+</div>
+
+<div class="avatar-item">
+<div class="avatar">
+<img src="budaya3.jpg">
+</div>
+<p>Tari Bedhaya</p>
+</div>
+
+<div class="avatar-item">
+<div class="avatar">
+<img src="budaya4.jpg">
+</div>
+<p>Tari Srimpi</p>
+</div>
+
+<div class="avatar-item">
+<div class="avatar">
+<img src="budaya5.jpg">
+</div>
+<p>Perayaan Sekaten</p>
+</div>
+
+<div class="avatar-item">
+<div class="avatar">
+<img src="budaya6.jpg">
+</div>
+<p>Gamelan</p>
+</div>
+
+</section>
+
+<!-- TENTANG -->
+<section>
+
+<article class="card">
+
+<h3 style="background-color:#8B0000;color:white;padding:10px;">
+Tentang Kota Solo
+</h3>
+
+<p>
+Kota Solo atau Surakarta adalah kota di Jawa Tengah yang dikenal sebagai pusat budaya Jawa, batik, dan kuliner. Kota ini memiliki Keraton Kasunanan Surakarta dan Pura Mangkunegaran sebagai pusat budaya Jawa.Solo bersama Yogyakarta adalah pewaris Mataram Islam.Sering dijuluki Kota Batik, Kota Budaya, dan Kota Seni Pertunjukan dan Dikenal dengan keramahan penduduknya, biaya hidup yang relatif terjangkau, dan suasana kota yang tenang namun berbudaya.Solo terus berupaya memadukan tradisi dengan modernitas, menjadikannya destinasi wisata sejarah dan kuliner yang sangat populer
+</p>
+
+</article>
+
+</section>
+
+<!-- EVENT -->
+<section id="event">
+
+<article class="card">
+
+<details>
+<summary><strong>Upcoming Event Maret & April</strong></summary>
+
+<p>Event Bulan Maret<p>
+
+<ul>
+<li>Ramadan Light Festival (19 Feb – 21 Maret 2026)</li>
+<li>Kampung Ramadan (Sepanjang Bulan Ramadan)</li>
+<li>Savanah Safari Ramadan (18 Feb – 19 Maret 2026)</li>
+<li>Senang-Senang Festival (29 Maret 2026)</li>
+<li>Grebeg Sudiro (Hingga 1 Maret 2026)</li>
+</ul>
+
+<p>Event bulan april<p>
+
+<ul>
+<li>2nd Solo Plastic Festival 2026 (11-12 April 2026)</li>
+<li>Solo Color Run Lightfest 2026 (19 April 2026)</li>
+</ul>
+
+</details>
+
+</article>
+
+</section>
+
+<!-- MEDIA -->
+
+<section id="rating">
+
+<h2>Wisata yang paling diminati</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="Wisata6.jpg">
+<h3>Heritage Palace</h3>
+<p><b>Rating : ★★★★ 4.4/5</b> (13,2rb ulasan wisatawan)</p>
+</div>
+
+<div class="card">
+<img src="Wisata9.jpg">
+<h3>Pura Mangkunegaran</h3>
+<p><b>Rating : ★★★★ 4.7/5</b> (9,9rb ulasan wisatawan)</p>
+</div>
+
+<div class="card">
+<img src="Wisata5.jpg">
+<h3>Taman Sriwedari</h3>
+<p><b>Rating : ★★★★ 4.4/5</b> (7,2rb ulasan wisatawan)</p>
+</div>
+
+</div>
+
+</section>
+<footer>
+<p>© 2026 Website the Explore Beauty of solo</p>
+</footer>
+
+<script>
+function filterKategori(){
+
+let kategori = document.getElementById("kategori").value;
+
+if(kategori == "Destinasi"){
+document.getElementById("Destinasi").scrollIntoView({behavior:"smooth"});
+}
+
+else if(kategori == "Kuliner"){
+document.getElementById("kuliner").scrollIntoView({behavior:"smooth"});
+}
+
+else if(kategori == "Budaya"){
+document.getElementById("budaya").scrollIntoView({behavior:"smooth"});
+}
+
+else if(kategori == "Wisata populer"){
+document.getElementById("rating").scrollIntoView({behavior:"smooth"});
+}
+
+}
+</script>
+
+</body>
+</html>
